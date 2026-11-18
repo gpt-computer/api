@@ -6,7 +6,7 @@
 
 The schema of gptc command line interface exposed as JSON and YAML files. They can be used and refered in the 3rd-party applications. The schema is tagged with version given by `gptc -v`. This repository is maintained by [gptc-bot](https://github.com/gptc-bot), it gets updated everytime gpt-computer/gptc is updated or released.
 
-| Field | Descriptiopn |
+| Field | Description |
 | --- | --- |
 |`.methods[]`|  All subcommands under `gptc` |
 |`.methods[].name`|  The name of the subcommand  |
